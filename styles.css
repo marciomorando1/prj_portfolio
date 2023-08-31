@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.caixa-inicio {
+    height: 100vh;
+    width: 100%;
+    background-color: #191919;
+    background-size: cover;
+    background-position: center;
+    /*background-image: url(./img/imagem_tec.png);*/
+}
+
+nav {
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+}
+
+.portfolio-desc {
+    color: white;
+    font-size: 35px;
+}
+
+.portfolio-desc span {
+    color: #f9004d;
+}
+
+li {
+    color: white;
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+li:hover {
+    color: #f9004d;
+    transition: 0.5s;
+}
+
+.nome {
+    position: absolute;
+    top: 50%;
+    left: 7%;
+}
+
+h1 {
+    color: white;
+    font-size: 55px;
+}
+
+h1 span {
+    color: #f9004d;
+}
+
+.nome h3 {
+    color: white;
+    font-size: 20px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    padding: 60px 15%;
+    background-color: #000000;
+}
+
+section img {
+    height: 400px;
+    border-radius: 100%; 
+    border: 2px solid #f9004d;  
+    margin-left: 60px;
+    margin-right: 30px;
+}
+
+section div h2 {
+    color: white;
+    font-size: 75px;
+}
+
+section div p {
+    color: #db678c;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section div button {
+    color: white;
+    background-color: #f9004d;
+    height: 40px;
+    width: 170px;
+    border: none;
+    border-radius: 20px;
+
+}
+
+section div button:hover {
+    background-color: black;
+    border: 3px solid #f9004d;
+    transition: 0.5s;
+}
