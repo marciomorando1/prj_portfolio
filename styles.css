@@ -83,7 +83,7 @@ section img {
 
 section div h2 {
     color: white;
-    font-size: 75px;
+    font-size: 50px;
 }
 
 section div p {
@@ -108,3 +108,53 @@ section div button:hover {
     border: 3px solid #f9004d;
     transition: 0.5s;
 }
+
+.projetos {
+    background-color: #191919;
+}
+
+.projetos h2 {
+    color: white;
+    font-size: 50px;
+}
+
+.card {
+    background-color: #000000;
+    height: 365px;
+    width: 335px;
+    border-radius: 20px;
+    padding: 20px 35px;
+    text-align: center;
+}
+
+.card img {
+    height: 100px;
+}
+
+.card h5 {
+    color: white;
+    font-size: 24px;
+}
+
+.card p {
+    color: #db678c;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.card a {
+    color: white;
+    background-color: #f9004d;
+    padding: 10px 20px ; 
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.card a:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+}
+
+/*Parei nos 26:45*/
